@@ -1,1 +1,1 @@
-{"rewrites":[{"source":"/(.*)","destination":"/index.html"}],"buildCommand":"npm run build","installCommand":"npm ci --prefer-offline --no-audit","outputDirectory":"dist"}
+{"rewrites":[{"source":"/(.*)","destination":"/index.html"}],"buildCommand":"npm run build","installCommand":"npm install --prefer-offline --no-audit","outputDirectory":"dist"}
