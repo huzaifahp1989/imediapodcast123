@@ -12,6 +12,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
+      '@tanstack/react-query': path.resolve(__dirname, './node_modules/@tanstack/react-query'),
+      '@tanstack/query-core': path.resolve(__dirname, './node_modules/@tanstack/query-core'),
     },
     extensions: ['.mjs', '.js', '.jsx', '.ts', '.tsx', '.json']
   },
